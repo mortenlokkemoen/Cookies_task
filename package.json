@@ -1,0 +1,32 @@
+{
+  "name": "node-cookies",
+  "version": "1.0.0",
+  "description": "\"a simple task about cookies and authentication with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon .app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortenlokkemoen/Cookies_task.git"
+  },
+  "keywords": [
+    "auhentication",
+    "cookies",
+    "repo"
+  ],
+  "author": "MortenL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mortenlokkemoen/Cookies_task/issues"
+  },
+  "homepage": "https://github.com/mortenlokkemoen/Cookies_task#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.20"
+  }
+}
